@@ -1,0 +1,254 @@
+@charset 'UTF-8';
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+
+    letter-spacing: .1em;
+
+    color: #4c4c4c;
+    background-color: #ffffff;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #14c0c9;
+}
+a:visited
+{
+    color: #0f949b;
+}
+a:hover
+{
+    color: #0f949b;
+}
+a:active
+{
+    color: #16d6e0;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+/* Align
+------------------------------------------------------------*/
+.text-center
+{
+    text-align: center;
+}
+
+/* Layout
+------------------------------------------------------------*/
+.block-center,
+section .container,
+ i
+{
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Font
+------------------------------------------------------------*/
+.abel,
+section h2,
+ .works-box a .works-box-inner .button-readmore
+{
+    font-family: 'Abel', sans-serif;
+}
+
+.uppercase,
+section h2,
+.works-box a .works-box-inner .button-readmore
+{
+    text-transform: uppercase;
+}
+
+/* Header
+------------------------------------------------------------*/
+.button
+{
+    font-size: 20px;
+    line-height: 0;
+
+    display: block;
+    float: right;
+
+    width: 20px;
+    height: 20px;
+    margin: 20px 20px 0 0;
+    padding: 10px;
+
+    text-align: center;
+
+    color: #4c4c4c;
+    border: 2px solid #4c4c4c;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.button:visited
+{
+    color: #4c4c4c;
+}
+.button:hover,
+.button:active
+{
+    color: #fff;
+    background-color: #4c4c4c;
+}
+header .block-center
+{
+  max-height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 768px){
+header .block-center
+{
+  max-height: 400px;
+}
+}
+
+header .site-title
+{
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+header .site-title span
+{
+    font-size: 42px;
+    font-size: 4.2rem;
+
+    display: block;
+
+    color: #3a3bbb;
+}
+header .profile-icon
+{
+    margin: 30px auto;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+header p
+{
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+/* text
+------------------------------------------------------------*/
+section
+{
+    padding: 60px 0;
+}
+section .container
+{
+    width: 90%;
+}
+section h2
+{
+    font-size: 32px;
+    font-size: 3.2rem;
+}
+#test
+{
+    background-color: #ffffff;
+}
+#test .container
+{
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: space-between;
+    
+}
+#test h2
+{
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-size: 4.5rem;
+
+    color: #cd853f;
+}
+#test .text-box
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 32%;
+    padding: 0px;
+
+    background-color: #dcdcdc;
+}
+#test h3
+{
+    font-size: 25px;
+    font-size: 2.5rem;
+ 
+    width: 100%;
+    background-color: #b0c4de;
+    margin: 0;
+}
+#text-box p
+{
+     margin: 0;
+}
+
+@media (max-width: 768px){
+    #test .container {
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+    #test .text-box{
+        width: 100%;
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+}
+#test h2
+{
+    margin-bottom: 30px;
+
+}
+#contact
+{
+    background-color: #b0c4de;
+}
+#contact button
+{
+    display: block;
+    margin: auto;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    width: 32%;
+    font-size: 4.2rem;
+　　border-radius: 20px;
+    background-color: #dcdcdc;
+}
+@media (max-width: 768px){
+    #contact button
+{
+    width: 50%
+}
+}
