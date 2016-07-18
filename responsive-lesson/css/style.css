@@ -140,12 +140,15 @@ header .site-title span
 
     color: #3a3bbb;
 }
+<<<<<<< HEAD
 
 .profile {
     backgroud-images:url(../images/main.jpg) center center;
     backgroud-size: cover;    
 }
 
+=======
+>>>>>>> origin/master
 header .profile-icon
 {
     margin: 30px auto;
