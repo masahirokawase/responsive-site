@@ -211,7 +211,6 @@ section h2
 {
      margin: 0;
 }
-
 @media (max-width: 768px){
     #test .container {
         flex-direction: column;
