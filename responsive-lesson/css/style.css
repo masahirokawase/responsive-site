@@ -140,18 +140,19 @@ header .site-title span
 
     color: #3a3bbb;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-.profile {
-    backgroud-images:url(../images/main.jpg) center center;
-    backgroud-size: cover;    
+header .profile {
+    background-image:url(../images/main.jpg);
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 500px;
 }
-
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
+@media (max-width: 768px){
+    header .profile{
+    max-height: 400px;
+}
+}
 header .profile-icon
 {
     margin: 30px auto;
@@ -226,7 +227,7 @@ section h2
 @media (max-width: 768px){
     #test .container {
         flex-direction: column;
-        margin: 10px;
+        margin: 10px auto;
     }
     
     #test .text-box{
